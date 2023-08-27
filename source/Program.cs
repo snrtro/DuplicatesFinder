@@ -18,5 +18,7 @@ Directory.GetFiles(folder)
     .SelectMany(f => f.Files.Skip(1))
     .ToList()
     .ForEach(File.Delete);
+	
 
+Console.WriteLine("=====================!");
 Console.WriteLine("DONE!");
